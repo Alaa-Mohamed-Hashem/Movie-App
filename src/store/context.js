@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import useFetch from './useFetch';
+import useFetch from '../customHooks/useFetch';
 // make sure to use https
 
 const AppContext = React.createContext();
